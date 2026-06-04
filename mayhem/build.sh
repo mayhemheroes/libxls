@@ -16,7 +16,7 @@
 
 #!/bin/bash -eu
 
-./bootstrap
+./autogen.sh
 ./configure --enable-static
 make clean
 
